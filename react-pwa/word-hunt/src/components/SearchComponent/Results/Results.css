@@ -1,0 +1,12 @@
+.audio {
+    margin-top: 5%;
+    border-radius: 4rem;
+    border: 5px blue solid;
+}
+
+@media (max-width: 80px) {
+    .audio{
+        color: "blue";
+        width: "50vw";
+    }
+}
