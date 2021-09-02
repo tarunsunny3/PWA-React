@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import {TextField, Container, Typography, Button, Grid, MenuItem} from '@material-ui/core'; 
+import {TextField, Typography, Grid, MenuItem} from '@material-ui/core'; 
 import useStyles from './SearchCompStyles';
 import languageOptions  from '../../lib/languageOptions';
 import Results from './Results/Results';
@@ -22,7 +22,7 @@ const SearchComponent = ({searchWord}) => {
             setSearchResult([]);
         }
        
-    }, [word, lang])
+    }, [word, lang, searchWord])
     return (
         <div>
             <Grid container display="flex" direction="column" justifyContent="center" alignItems="center">

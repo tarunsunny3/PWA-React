@@ -1,4 +1,4 @@
-import React, {useEffect } from 'react';
+import React from 'react';
 import axios from 'axios';
 import SearchComponent from './components/SearchComponent/SearchComponent';
 import { Container } from '@material-ui/core';
